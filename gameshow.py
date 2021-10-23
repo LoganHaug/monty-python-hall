@@ -27,9 +27,6 @@ class Gameshow:
         switch.remove(reveal)
         return switch[0]
 
-    def _generate_graphs(self):
-        pass
-
     def simulate(self):
         """Runs the simulation"""
         for _ in range(0, self.runs):
