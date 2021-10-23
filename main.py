@@ -1,9 +1,8 @@
-#!/usr/bin/env python
-import click
+import gameshow
 
-@click.command()
 def main():
-    click.secho("main", fg="green")
+    test = gameshow.Gameshow(runs=1000000)
+    test.simulate()
 
 
 if __name__ == "__main__":
